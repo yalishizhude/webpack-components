@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    image: node:8
+    container_name: web
+    ports: 
+      - "8000:8000"
+    tty: true
+    stdin_open: true
+    working_dir: /app
+    volumes:
+      - "./:/app"

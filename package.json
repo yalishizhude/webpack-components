@@ -1,0 +1,24 @@
+{
+  "name": "web-components-exampe",
+  "version": "1.0.0",
+  "description": "add webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdn/web-components-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdn/web-components-examples/issues"
+  },
+  "homepage": "https://github.com/mdn/web-components-examples#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.27.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
